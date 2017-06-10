@@ -19,9 +19,19 @@ body {
     transform: translate(-50%, -50%);
 }
 
-.menu {
-    width: 100px;
+.is-accordion-submenu-item {
+    text-align: center;
 }
+
+.is-accordion-submenu-item a {
+    color: #ffffff;
+    background-color: #d3d3d3;
+    border: 5px solid #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.is-accordion-submenu-item a:hover {}
 
 .fi-align-justify {
     font-size: 30px;
@@ -213,4 +223,42 @@ footer {
 
 .orbit-next, .orbit-previous {
     display: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.left, .right {
+    position: absolute;
+    color: #ffffff!important;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+.left a, .right a {
+    color: #ffffff;
+}
+
+.column {
+    padding: 0;
+}
+
+.left {
+    top: 75%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.right {
+    top: 75%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+.left:hover, .right:hover {
+    font-style: italic;
 }
