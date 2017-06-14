@@ -83,9 +83,10 @@ body {
     color: #ffffff;
 }
 
-.row-two a:hover, a:active {
+
+/*.row-two a:hover, a:active {
     font-style: italic;
-}
+}*/
 
 .row-two p {
     text-align: left;
@@ -143,9 +144,10 @@ a {
     color: #000000;
 }
 
-a:hover, a:active {
+
+/*a:hover, a:active {
     font-style: italic;
-}
+}*/
 
 footer {
     height: 175px;
@@ -241,6 +243,10 @@ footer {
     font-weight: lighter;
 }
 
+.page-one .row-one .small-6 {
+    position: relative;
+}
+
 .page-one .left a, .right a {
     color: #ffffff;
 }
@@ -251,23 +257,23 @@ footer {
 
 .page-one .left {
     top: 50%;
-    left: 25%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .page-one .right {
     top: 50%;
-    left: 75%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.page-one .left:hover, .page-one .right:hover {
-    font-style: italic;
+.page-one .left a:hover, .page-one .right a:hover {
+    opacity: 0.5;
 }
 
 .row-one .columns img {
     width: 100%;
-    padding: 0;
+    padding: 35px;
     margin: 0;
 }
 
@@ -276,5 +282,5 @@ footer {
 }
 
 .row-one h1, .row-one a {
-    text-decoration: none;
+    text-decoration: none!important;
 }
