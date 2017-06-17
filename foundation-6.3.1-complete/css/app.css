@@ -2,6 +2,10 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+p {
+    letter-spacing: 1px;
+}
+
 .main {
     padding: 0;
 }
@@ -99,11 +103,12 @@ body {
 
 .page-one .row-four {
     /*background: linear-gradient(rgba(237, 224, 215, 1), (rgba(237, 224, 215, 0));*/
-    background-color: #ede0d7!important;
+    /*background-color: #rgba(237, 224, 215, 1)*/
+    background: linear-gradient(rgba(237, 224, 215, 0.5), rgba(237, 224, 215, 1)60%, rgba(237, 224, 215, 0.5))!important;
 }
 
 .row-three, .row-five {
-    background-color: #ede0d7!important;
+    background: linear-gradient(rgba(237, 224, 215, 0.5), rgba(237, 224, 215, 1)60%, rgba(237, 224, 215, 0.5))!important;
 }
 
 .row-five {
@@ -188,16 +193,32 @@ footer {
 .page-three .row-two {
     background-color: #b45f5d;
     position: relative;
-    height: 400px;
+    height: 500px;
+}
+
+.page-three .text-container {
+    padding-top: 50px;
+}
+
+.page-three .vertical {
+    text-align: left;
+}
+
+.page-three .vertical span {
+    text-align: right;
+}
+
+.page-three .orbit {
+    margin-top: 80px;
 }
 
 .page-three .row-two p {
-    text-align: left;
+    /*text-align: left;
     width: 690px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);*/
 }
 
 .page-three .row-three img {
@@ -251,6 +272,10 @@ footer {
     color: #ffffff;
 }
 
+.page-one .row-two, .page-one .row-three, .page-one .row-four, .page-one .row-five {
+    max-width: 100%;
+}
+
 .column {
     padding: 0;
 }
@@ -277,10 +302,82 @@ footer {
     margin: 0;
 }
 
+.page-two h1 {
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.page-three .row-one {
+    position: relative;
+}
+
+.page-three .wide-row {
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+.page-three .get-in-touch, .page-three label {
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    padding: 15px 40px;
+}
+
+.page-three input, textarea, select {
+    background-color: #efefef;
+}
+
+label, legend {
+    text-transform: uppercase;
+}
+
+.page-three h1 {
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+}
+
+.page-two .row-one {
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+}
+
 .row-one .columns {
     padding: 0;
 }
 
 .row-one h1, .row-one a {
     text-decoration: none!important;
+}
+
+.row:not(.expanded) .row {
+    text-align: center;
+}
+
+.button {
+    background: #FFFFFF!important;
+    border: 3px solid #EFEFEF;
+    color: black;
+    width: 417px;
+    text-transform: uppercase;
 }
