@@ -14,6 +14,12 @@ body {
     margin-top: 0!important;
 }
 
+.wide-content .row {
+    margin: 0;
+    max-width: 100%;
+    padding: 0 20px;
+}
+
 .page-two .img-column {
     position: relative;
 }
@@ -26,20 +32,20 @@ body {
     color: #ffffff!important;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: lighter;
 }
 
 .careercoaching {
-    margin: 105px 0;
+    margin: 10px 0;
 }
 
 .wellnesscoaching {
-    margin: 160px 0;
+    margin: 10px 0;
 }
 
 .othercoaching {
-    margin: 30px 0;
+    margin: 10px 0;
 }
 
 .page-two .row-three {
@@ -295,7 +301,13 @@ footer {
     display: flex;
     align-items: center;
     text-align: center;
-    background-color: rgba(237, 224, 215, .5);
+    /*background-color: rgba(237, 224, 215, .5);*/
+}
+
+h4 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 20px;
 }
 
 .social-icons {
