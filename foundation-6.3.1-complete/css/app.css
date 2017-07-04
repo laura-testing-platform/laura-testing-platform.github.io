@@ -1,12 +1,11 @@
 body {
     font-family: 'Lato', sans-serif;
     text-align: center!important;
-    background: linear-gradient(rgba(237, 224, 215, 0.5)5%, rgba(237, 244, 215, 1)15%, rgba(166, 190, 164, 0.5), rgba(166, 190, 164, 1)40%, rgba(237, 224, 215, 1), rgba(237, 224, 215, 0.5));
-    /*rgba(237, 244, 215, .5));*/
+    background: linear-gradient(rgba(237, 224, 215, 0.5)5%, rgba(237, 244, 215, 1)15%, rgba(166, 190, 164, 0.5), rgba(166, 190, 164, 1)45%, rgba(237, 224, 215, 1), rgba(237, 224, 215, .8));
 }
 
 .page-three {
-    background: linear-gradient(rgba(237, 224, 215, 0.5)5%, rgba(237, 244, 215, 1)15%, rgba(247, 188, 187, .5), rgba(247, 188, 187, 1)17%, rgba(237, 224, 215, 1)50%, rgba(237, 224, 215, 0.5));
+    background: linear-gradient(rgba(237, 224, 215, 0.5)5%, rgba(237, 244, 215, 1)15%, rgba(247, 188, 187, .5), rgba(247, 188, 187, )17%, rgba(237, 224, 215, 1)50%, rgba(237, 224, 215, 0.5));
     width: 100%;
 }
 
@@ -305,7 +304,7 @@ footer {
     display: flex;
     align-items: center;
     text-align: center;
-    /*background-color: rgba(237, 224, 215, .5);*/
+    background-color: rgba(237, 224, 215, .5);
 }
 
 h4 {
