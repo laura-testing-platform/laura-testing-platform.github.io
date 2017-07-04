@@ -20,6 +20,10 @@ body {
     padding: 0 20px;
 }
 
+.page-one .small-4 {
+    padding: 0 25px;
+}
+
 .page-two .img-column {
     position: relative;
 }
@@ -555,4 +559,9 @@ label, legend {
     color: black;
     width: 417px;
     text-transform: uppercase;
+}
+
+
+}
+
 }
