@@ -158,6 +158,10 @@ p {
     align-items: center;
 }
 
+.page-one .row-two p {
+    font-size: 17px;
+}
+
 .social-icons a i {
     font-style: italic;
     line-height: inherit;
