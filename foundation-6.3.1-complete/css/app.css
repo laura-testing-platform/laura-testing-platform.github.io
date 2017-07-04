@@ -6,7 +6,7 @@ body {
 }
 
 .page-three {
-    background: linear-gradient(rgba(237, 224, 215, 0.5)5%, rgba(237, 244, 215, 1)15%, rgba(239, 145, 143, 0.5), rgba(239, 145, 143, 1)30%, rgba(237, 224, 215, 1)50%, rgba(237, 224, 215, 0.5));
+    background: linear-gradient(rgba(237, 224, 215, 0.5)5%, rgba(237, 244, 215, 1)15%, rgba(247, 188, 187, .5), rgba(247, 188, 187, 1)17%, rgba(237, 224, 215, 1)50%, rgba(237, 224, 215, 0.5));
     width: 100%;
 }
 
@@ -193,8 +193,9 @@ p {
 }
 
 .orbit p {
-    font-size: 12px;
+    font-size: 15px;
     text-align: center;
+    padding: 10px;
 }
 
 .orbit h5 {
@@ -218,7 +219,7 @@ p {
 }*/
 
 .quote-container img {
-    margin-top: 10px;
+    margin-top: 90px;
 }
 
 .orbit-container {
@@ -294,6 +295,7 @@ footer {
     display: flex;
     align-items: center;
     text-align: center;
+    background-color: rgba(237, 224, 215, .5);
 }
 
 .social-icons {
@@ -328,7 +330,7 @@ footer {
 .page-three .row-two {
     /*background-color: #EF918F;*/
     position: relative;
-    height: 500px;
+    height: 650px;
 }
 
 
@@ -382,6 +384,10 @@ footer {
     display: none;
 }
 
+.orbit span {
+    font-size: 20px;
+}
+
 .hero {
     position: relative;
 }
@@ -400,6 +406,7 @@ footer {
     position: relative;
     margin-top: 30px;
     margin-bottom: 50px;
+    padding: 0;
 }
 
 .overlay-text h1 {
@@ -536,24 +543,4 @@ label, legend {
     color: black;
     width: 417px;
     text-transform: uppercase;
-}
-
-ext-transform: uppercase;
-
-}
-form: uppercase;
-
-}
-ext-transform: uppercase;
-
-}
-
-}
-
-}
-
-}
-
-}
-
 }
