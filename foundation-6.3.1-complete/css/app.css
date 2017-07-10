@@ -40,11 +40,15 @@ body {
 }
 
 .careercoaching {
-    margin: 10px 0;
+    margin: 50px 0;
+}
+
+.page-two-footer {
+    background-color: rgba(237, 224, 215, 0);
 }
 
 .wellnesscoaching {
-    margin: 10px 0;
+    margin: 60px 0;
 }
 
 .othercoaching {
@@ -120,7 +124,7 @@ p {
 }
 
 .page-three .menu {
-    margin-top: -50px;
+    margin-top: -5px;
 }
 
 .is-accordion-submenu-item a:hover {}
@@ -192,6 +196,7 @@ p {
     letter-spacing: 1px;
     font-size: 27px;
     font-weight: 200;
+    color: #515150;
 }
 
 .row-two a {
@@ -203,8 +208,8 @@ p {
 
 .orbit p {
     font-size: 15px;
-    text-align: center;
-    padding: 10px;
+    text-align: justify;
+    padding: 10px 20px;
 }
 
 .orbit h5 {
@@ -228,7 +233,7 @@ p {
 }*/
 
 .quote-container img {
-    margin-top: 90px;
+    margin-top: 20px;
 }
 
 .orbit-container {
@@ -241,7 +246,7 @@ p {
 }*/
 
 .row-three img {
-    height: 350px;
+    height: 425px;
     width: 100%;
 }
 
@@ -399,8 +404,8 @@ h4 {
     display: none;
 }
 
-.orbit span {
-    font-size: 20px;
+.orbit span img {
+    height: 20px;
 }
 
 .hero {
@@ -413,7 +418,7 @@ h4 {
     text-transform: uppercase;
     text-decoration: underline;
     letter-spacing: 2px;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: lighter;
 }
 
@@ -486,9 +491,10 @@ h4 {
     text-align: center;
 }
 
-.page-three .row-one {
+
+/*.page-three .row-one {
     position: relative;
-}
+}*/
 
 .page-three .wide-row {
     padding-top: 50px;
