@@ -181,7 +181,8 @@ p {
 }
 
 .page-one .row-two p {
-  font-size: 17px;
+  font-size: 16px;
+  color: grey;
 }
 
 .social-icons {
@@ -191,8 +192,8 @@ p {
 .social-icons a i {
   font-style: italic;
   line-height: inherit;
-  font-size: 40px;
-  padding: 25px;
+  font-size: 30px;
+  padding: 15px;
   color: #d3d3d3;
 }
 
@@ -216,7 +217,7 @@ p {
   font-weight: 200;
   letter-spacing: 1px;
   text-decoration: underline;
-  color: #ffffff;
+  color: grey;
 }
 
 .orbit p {
@@ -306,6 +307,14 @@ p {
   margin: 10px 25px;
 }
 
+.questions-three {
+  margin-left: 4%;
+}
+
+.questions-two-right {
+  margin-left: 3%;
+}
+
 a {
   letter-spacing: 1px;
   text-decoration: underline;
@@ -313,11 +322,11 @@ a {
 }
 
 .left-list {
-  margin-right: -285px;
+  text-align: right;
 }
 
 .right-list {
-  margin-left: -285px;
+  text-align: left;
 }
 
 .footer-content p {
@@ -460,10 +469,17 @@ h4 {
   padding: 0;
 }
 
+.social-icons {
+  display: inline-block;
+  float: right;
+  margin-top: -31px;
+}
+
 .list ul {
   list-style-type: none;
   text-align: left;
   color: grey;
+  letter-spacing: .5px;
 }
 
 .overlay-text h1 {
@@ -621,7 +637,7 @@ label, legend {
   }
   .social-icons a i {
     padding: 10px;
-    font-size: 30px;
+    font-size: 20px;
   }
   .row-three img {
     height: 375px;
