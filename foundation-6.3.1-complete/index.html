@@ -193,7 +193,7 @@
       <div class="row">
         <div id="career-coaching" class="small-12 medium-6 large-6 columns img-column">
           <h5>Career Coaching</h5>
-          <img class="careercoaching" src="images/PageTwo-CareerCoaching.jpeg" alt="">
+          <img class="careercoaching" src="images/PageTwo-CareerCoachingReSlice.jpg" alt="">
         </div>
         <div class="small-12 medium-6 large-6 columns">
           <p>What does career coaching mean? Well, simply-put, it is the coaching process but focusing on your work-life. It covers a number of areas such as career development and purpose.<br><br> So many of us feel stuck, confused, or unfulfilled in our
@@ -416,18 +416,23 @@
     </div>
 
     <div class="form-row" id="contact">
-      <form class="small-12 medium-10 large-10 column small-centered">
+      <form action="https://formspree.io/laura.tombs@asos.com" method="POST" class="small-12 medium-10 large-10 column small-centered">
         <div class="row">
           <p class="get-in-touch">If you like what you read, get in touch and let’s have a 30-minute call. There is no cost involved and it’s very easy to set up! Just fill out the form below and I will be very happy to speak to you.
           </p>
-          <div class="medium-6 columns">
+          <div class="medium-4 columns">
             <label>
-                <input type="email" placeholder="EMAIL">
+                <input type="text" placeholder="NAME" name="name">
               </label>
           </div>
-          <div class="medium-6 columns">
+          <div class="medium-4 columns">
             <label>
-                <input type="number" placeholder="TELEPHONE NUMBER">
+                <input type="email" placeholder="EMAIL" name="email">
+              </label>
+          </div>
+          <div class="medium-4 columns">
+            <label>
+                <input name="number" type="number" placeholder="TELEPHONE NUMBER">
               </label>
           </div>
 
@@ -442,7 +447,7 @@
         </div>
         <div class="row">
           <label>
-            <textarea placeholder=" WHAT TYPE OF COACHING ARE YOU INTERESTED IN?
+            <textarea name="message" placeholder=" WHAT TYPE OF COACHING ARE YOU INTERESTED IN?
 "></textarea>
           </label>
         </div>
